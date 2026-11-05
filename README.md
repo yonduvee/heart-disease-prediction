@@ -185,15 +185,6 @@ Predictions are illustrative only and are not medical diagnoses.
 7. Create the service and wait for the Docker image build and deployment.
 8. Test the deployed application using `/health`, `/info`, and `/docs`.
 
-### Live Render Deployment
-
-- **Application URL:** https://heart-disease-prediction-li67.onrender.com
-- **API Documentation:** https://heart-disease-prediction-li67.onrender.com/docs
-- **Health Endpoint:** https://heart-disease-prediction-li67.onrender.com/health
-- **Information Endpoint:** https://heart-disease-prediction-li67.onrender.com/info
-
-The Docker command listens on Render's `PORT` environment variable, falling back to port `8000` locally.
-
 ## 8. Technologies Used
 
 - Python
